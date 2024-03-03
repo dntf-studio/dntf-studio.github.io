@@ -13,16 +13,19 @@
     margin: 0 1.3rem;
 }
 
+#content_games{
+    margin-top: 3rem;
+}
+
 .gamepics{
     display: flex;
     justify-content: center;
-    margin-top: 10%;
     height: 100%;
 }
 
 .gamepics>img{
-    width: 11rem;
-    height: 11rem;
+    width: 9.7rem;
+    height: 9.7rem;
     border: #191919 1px;
     margin: .2rem .5rem;
 }
@@ -32,6 +35,7 @@
 }
 
 body{
+    margin-top: -1.35rem;
     background-color: #4D4D4D;
     color: #ffe169;
 }
@@ -47,8 +51,11 @@ body{
     content: 'Medium 1';
 }
 
+.description_{
+}
+
 /* 480px　以下*/
-@media (max-width: 550px) {
+@media (max-width: 560px) {
     .container{
         width: 100%;
     }
@@ -71,7 +78,7 @@ body{
     }
 }
 
-@media (min-width: 960px){
+@media (min-width: 820px){
     .gamepics>img{
         width: 14rem;
         height: 14rem;
