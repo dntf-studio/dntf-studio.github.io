@@ -1,6 +1,11 @@
 .header_container{
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin-top: 1rem;
+}
+
+.header_container>p{
+    color:#191919;
 }
 
 .menu{
@@ -35,7 +40,6 @@
 }
 
 body{
-    margin-top: -1.35rem;
     background-color: #4D4D4D;
     color: #ffe169;
 }
@@ -50,10 +54,6 @@ body{
 .size::after{
     content: 'Medium 1';
 }
-
-.description_{
-}
-
 /* 480px　以下*/
 @media (max-width: 560px) {
     .container{
