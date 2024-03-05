@@ -84,6 +84,10 @@ a {
 .size::after{
     content: 'Medium 1';
 }
+
+.size{
+    margin-top: -0.3rem;
+}
 /* 480px　以下*/
 @media (max-width: 560px) {
     .container{
