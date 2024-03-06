@@ -66,14 +66,16 @@ hr {
 .videos-container{
     display: flex;
     justify-content: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    margin-top: -1rem;
 }
 
 .videos-container>iframe{
-    max-width: 60%;
-    max-height: 60%;
+    max-width: 39%;
+    max-height: 39%;
     aspect-ratio: 16/9;
     margin-right: 1rem;
+    margin-top: 1rem;
 }
 
 body{
