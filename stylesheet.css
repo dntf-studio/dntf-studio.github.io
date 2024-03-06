@@ -48,8 +48,8 @@ hr {
 }
 
 .gamepics>img{
-    width: 9.7rem;
-    height: 9.7rem;
+    width: 10rem;
+    height: 10rem;
     border: #191919 1px;
     margin: .2rem .5rem;
 }
@@ -103,7 +103,7 @@ a {
 .size{
     margin-top: -0.3rem;
 }
-/* 480px　以下*/
+/*  Small 480px　以下*/
 @media (max-width: 560px) {
     .container{
         width: 100%;
@@ -127,6 +127,7 @@ a {
     }
 }
 
+/* Medium 2 */
 @media (min-width: 820px){
     .gamepics>img{
         width: 14rem;
@@ -138,7 +139,7 @@ a {
     }
 }
 
-/* 1280px以上 */
+/* Large 1280px以上 */
 @media (min-width: 1280px) {    
     .container{
         width: 60%;
@@ -149,8 +150,8 @@ a {
     }
 
     .gamepics>img{
-        width: 15rem;
-        height: 15rem;
+        width: 17rem;
+        height: 17rem;
     }
 
     .size::after{
