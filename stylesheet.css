@@ -95,7 +95,6 @@ a {
     margin-right: auto;
     background-color: #191919;
 }
-
 .size::after{
     content: 'Medium 1';
 }
