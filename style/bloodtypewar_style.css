@@ -1,0 +1,26 @@
+.game_image{
+    margin: auto;
+    border: 1px solid;
+    width: 16rem;
+    height: 9rem;
+}
+
+@media (max-width: 560px) {
+    .size::after{
+        content: 'Small';
+    }
+}
+
+/* Medium 2 */
+@media (min-width: 820px){
+    .size::after{
+        content: 'Medium 2';
+    }
+}
+
+/* Large 1280px以上 */
+@media (min-width: 1280px) {    
+    .size::after{
+        content: 'Large';
+    }
+}

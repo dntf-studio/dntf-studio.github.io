@@ -47,14 +47,14 @@ hr {
     height: 100%;
 }
 
-.gamepics>img{
+.gamepics>a>img{
     width: 10rem;
     height: 10rem;
     border: #191919 1px;
     margin: .2rem .5rem;
 }
 
-.gamepics>img:hover{
+.gamepics>a>img:hover{
     transform: scale(1.3, 1.3);
 }
 
